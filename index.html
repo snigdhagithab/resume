@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICT Registation</title>
+  </head>
+  <body>
+    <h1 style="color: orangered">Student RegistationForm</h1>
+    <hr />
+    <font size="+2">Please enter relevent information</font>
+    <br />
+    <small>mandatory Field*</small>
+    <form>
+      <label for="District"
+        >District<small
+          >(Institute District: Where you want to do your task)*:</small
+        ></label
+      ><br />
+      <select name="District" id="District">
+        <option value="--select one--" disabled selected>--select one--</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Narayanganj">Narayanganj</option>
+        <option value="khulna">Khulna</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Mymensing">Mymensing</option>
+        <option value="Brahmanbaria">Brahmanbaria</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Noakhali">Noakhali</option>
+        <option value="Jessore">Jessore</option>
+        <option value="Manikganj">Manikganj</option>
+        <option value="Pabna">Pabna</option>
+        <option value="Bandarban">Bandarban</option>
+        <option value="Satkhira">Satkhira</option>
+        <option value="Bogra">Bogra</option>
+        <option value="Gajipur">Gajipur</option>
+        <option value="Naogaom">Naogaom</option>
+        <option value="Faridpur">Faridpur</option>
+        <option value="Gopalganj">Gopalganj</option>
+      </select>
+      <br />
+      <label for="Coursr">Course:</label><br />
+      <select name="Course" id="Course">
+        <option value="--select one--" disabled selected>--select one--</option>
+        <option value="Web Design & Development-2020(2020, February)">
+          Web Design & Development-2020(2020, February)
+        </option>
+        <option value="Grapic Design & Development-2020(2020, February)">
+          Grapic Design & Development-2020(2020, February)
+        </option>
+        <option value="Digital Marketing-2020(2020, February)">
+          Digital Marketing-2020(2020, February)
+        </option>
+      </select>
+      <br />
+      <label for="Student Name">Student Name*:</label>
+      <input type="text" name="Student Name" id="Student Name" /><br />
+      <label for="Father Name">Father Name*:</label>
+      <input type="text" name="Father Name" id="Father Name" /><br />
+      <label for="Mother Name">Mother Name*:</label>
+      <input type="text" name="Mother Name" id="Mother Name" /><br />
+      <fieldset>
+        <legend>Date of Birth</legend>
+        <level for="day">Day:</level>
+        <select name="day" id="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+        </select>
+        <level for="Month">Month</level>
+        <select name="Month" id="Month">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <level for="year">Year</level>
+        <select name="Year" id="Year">
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+        </select>
+      </fieldset>
+      <p>Gender:*</p>
+      <input type="radio" id="Male" value="male" />
+      <label for="Male">Male</label><br />
+      <input type="radio" id="Female" value="Female" />
+      <label for="Female">Female</label>
+      <p>Phycally Handicapped:*</p>
+      <input type="radio" id="YES" value="YES" />
+      <label for="YES">YES</label><br />
+      <input type="radio" id="NO" value="NO" />
+      <label for="NO">NO</label>
+      <label for="Email">Email*</label>
+      <input type="email" value="email" /><br />
+      <small>(e.g:example@mail.com)</small><br />
+      <label for="Phone">Phone(Must be 11 Dogits)*</label>
+      <input type="number" value="Phone" /><br />
+      <small>(e.g:0155123456)</small><br />
+      <label for="Identification">Identification Type:</label>
+      <select name="Identification" id="Identification">
+        <option value="select one" disabled selected>select one</option>
+        <option value="Birth Certificate no.">Birth Certificate no.</option>
+        <option value="National ID">National ID</option>
+      </select>
+      <br />
+      <p>
+        Identification No. (Must be 10 digits for new NID or 17 digits for old
+        NID. If your National ID is 13 digits, then please add your birth year
+        with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*
+      </p>
+      <input type="number" value="number" /><br />
+      <level for="Home District">Home District:</level><br />
+      <select name="Home District" id="Home District">
+        <option value="--select one--" disabled selected>--select one--</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Narayanganj">Narayanganj</option>
+        <option value="khulna">Khulna</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Mymensing">Mymensing</option>
+        <option value="Brahmanbaria">Brahmanbaria</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Noakhali">Noakhali</option>
+        <option value="Jessore">Jessore</option>
+        <option value="Manikganj">Manikganj</option>
+        <option value="Pabna">Pabna</option>
+        <option value="Bandarban">Bandarban</option>
+        <option value="Satkhira">Satkhira</option>
+        <option value="Bogra">Bogra</option>
+        <option value="Gajipur">Gajipur</option>
+        <option value="Naogaom">Naogaom</option>
+        <option value="Faridpur">Faridpur</option>
+        <option value="Gopalganj">Gopalganj</option></select
+      ><br />
+      <level for="Upazilla">Upazilla:*</level><br />
+      <select name="Upazilla" id="Upazilla">
+        <option value="--select one--" disabled selected>--select one--</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Narayanganj">Narayanganj</option>
+        <option value="khulna">Khulna</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Mymensing">Mymensing</option>
+        <option value="Brahmanbaria">Brahmanbaria</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Noakhali">Noakhali</option>
+        <option value="Jessore">Jessore</option>
+        <option value="Manikganj">Manikganj</option>
+        <option value="Pabna">Pabna</option>
+        <option value="Bandarban">Bandarban</option>
+        <option value="Satkhira">Satkhira</option>
+        <option value="Bogra">Bogra</option>
+        <option value="Gajipur">Gajipur</option>
+        <option value="Naogaom">Naogaom</option>
+        <option value="Faridpur">Faridpur</option>
+        <option value="Gopalganj">Gopalganj</option>
+      </select>
+      <br />
+      <label for="vilage">Village/House no/Road No/Other Alternative*:</label
+      ><br />
+      <input type="number" />
+      <br />
+      <label for="post office">Post Office*:</label><br />
+      <input type="text" /><br />
+      <label for="Education"
+        >Education Qualification: <small>(Higher Level)</small></label
+      ><br />
+      <select name="Education" id="Education">
+        <option value="--select one--" disabled selected>--select one--</option>
+        <option value="Higher Secondary/Equivalent">
+          Higher Secondary/Equivalent
+        </option>
+        <option value="Bachelor">Bachelor</option>
+        <option value="Master">Master</option>
+        <option value="Phd">Phd</option></select
+      ><br />
+      <p>Have any computer:*</p>
+      <input type="radio" id="YES" value="YES" />
+      <label for="YES">YES</label><br />
+      <input type="radio" id="NO" value="NO" />
+      <label for="NO">NO</label><br />
+      <label for="Photograph">Photograph</label>
+      <input type="button" value="Choose File" />
+      <p>(File type must be jpg or jpeg or png.Maximum life size 2 mb.)</p>
+      <label for="Signature">Signature</label>
+      <input type="button" value="Choose File" />
+      <p>(File type must be jpg or jpeg or png.Maximum life size 2 mb.)</p>
+      <input type="Submit" value="Submit" />
+    </form>
+  </body>
+</html>
